@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mini shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="plugins/jquery.maskedinput.min.js"></script>
+    <script src="js/mainScript.js"></script>
+    <script src="js/cartModel.js"></script>
+    <script src="js/cartView.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/orderPopupModel.js"></script>
+    <script src="js/orderPopupView.js"></script>
+    <script src="js/pageController.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <span id="logo"><img src="img/logo-shop.png" data-home="img/home.png" data-src="img/logo-shop.png"></span>
+            <div id="categories">
+                <span class="categoriesBtn" data-cat="Phones">Phones</span>
+                <span class="categoriesBtn" data-cat="Notebooks">Notebooks</span>
+            </div>
+            <div class="cartBox">
+                <span class="cartImage"></span>
+                <span class="cartCounter"></span>
+            </div>
+        </div>
+        <div id="leftMenu"></div>
+        <div id="content"></div>
+    </div>
+</body>
+</html>
